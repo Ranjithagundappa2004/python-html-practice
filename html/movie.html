@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Schedule</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            text-align: center;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        caption {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <caption>CINEMA HALL – MOVIE SCHEDULE</caption>
+    <tr>
+        <th>Screen</th>
+        <th>10:00 AM</th>
+        <th>1:00 PM</th>
+        <th>4:00 PM</th>
+        <th>7:00 PM</th>
+    </tr>
+
+    <tr>
+        <th>Screen 1</th>
+        <td rowspan="2">Avengers</td>
+        <td>Jawan</td>
+        <td colspan="2">Interstellar</td>
+    </tr>
+
+    <tr>
+        <th>Screen 2</th>
+        <td>KGF</td>
+        <td>RRR</td>
+        <td>Inception</td>
+    </tr>
+
+    <tr>
+        <th>Screen 3</th>
+        <td colspan="4">Maintenance</td>
+    </tr>
+</table>
+
+</body>
+</html>
